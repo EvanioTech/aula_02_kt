@@ -44,5 +44,6 @@ fun main() {
     for (i in 1..stack.size()) {
         println("pop(): ${stack.pop()}")
         println(stack)
+
     }
 }
