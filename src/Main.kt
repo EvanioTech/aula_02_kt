@@ -1,7 +1,16 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+class Customer
+
+class Contact(val id: Int , var email: String)//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
-    val name = "Kotlin"
+    val name = "Matias"
+    val customer = Customer()
+
+    val contact = Contact(1, "matias@gmail.com")
+
+    println(contact.email)
+    println(contact.id)
+
     //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
     // to see how IntelliJ IDEA suggests fixing it.
     println("Hello, " + name + "!")
